@@ -1,0 +1,5 @@
+{
+  "QuickMedicalHistoryWithIdDoesNotExist": "QuickMedicalHistory con id: '%id%' no existe",
+  "QuickMedicalHistoryNameUsed": "QuickMedicalHistory con nombre: '%name%' ya se encuentra registrada",
+  "QuickMedicalHistoryFieldUsed": "Existe en la base de datos el valor: '%value%' para el campo %field%"
+}

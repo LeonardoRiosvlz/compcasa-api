@@ -1,0 +1,5 @@
+{
+  "QuickPhysicalExamWithIdDoesNotExist": "QuickPhysicalExam with id: '%id%' does not exists",
+  "QuickPhysicalExamNameUsed": "QuickPhysicalExam with name: '%name%' already exists",
+  "QuickPhysicalExamFieldUsed": "The value: %value% exists in the database, for the field: %field%"
+}

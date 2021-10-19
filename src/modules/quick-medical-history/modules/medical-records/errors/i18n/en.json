@@ -1,0 +1,5 @@
+{
+  "MedicalRecordsWithIdDoesNotExist": "MedicalRecords with id: '%id%' does not exists",
+  "MedicalRecordsNameUsed": "MedicalRecords with name: '%name%' already exists",
+  "MedicalRecordsFieldUsed": "The value: %value% exists in the database, for the field: %field%"
+}

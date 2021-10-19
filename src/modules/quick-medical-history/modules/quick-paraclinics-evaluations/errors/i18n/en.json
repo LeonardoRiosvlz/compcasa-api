@@ -1,0 +1,5 @@
+{
+  "QuickParaclinicsEvaluationsWithIdDoesNotExist": "QuickParaclinicsEvaluations with id: '%id%' does not exists",
+  "QuickParaclinicsEvaluationsNameUsed": "QuickParaclinicsEvaluations with name: '%name%' already exists",
+  "QuickParaclinicsEvaluationsFieldUsed": "The value: %value% exists in the database, for the field: %field%"
+}

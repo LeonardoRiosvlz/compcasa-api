@@ -1,0 +1,6 @@
+{
+  "PharmacologicalManagementWithIdDoesNotExist": "PharmacologicalManagement con id: '%id%' no existe",
+  "PharmacologicalManagementNameUsed": "PharmacologicalManagement con nombre: '%name%' ya se encuentra registrada",
+  "PharmacologicalManagementFieldUsed": "Existe en la base de datos el valor: '%value%' para el campo %field%",
+  "PharmacologicalManagementFieldInvalid": "El valor : '%value%' es invalido para el campo %field%"
+}

@@ -1,0 +1,5 @@
+{
+  "QuickMedicalHistoryWithIdDoesNotExist": "QuickMedicalHistory with id: '%id%' does not exists",
+  "QuickMedicalHistoryNameUsed": "QuickMedicalHistory with name: '%name%' already exists",
+  "QuickMedicalHistoryFieldUsed": "The value: %value% exists in the database, for the field: %field%"
+}

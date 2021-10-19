@@ -1,0 +1,5 @@
+{
+  "QuickParaclinicsEvaluationsWithIdDoesNotExist": "QuickParaclinicsEvaluations con id: '%id%' no existe",
+  "QuickParaclinicsEvaluationsNameUsed": "QuickParaclinicsEvaluations con nombre: '%name%' ya se encuentra registrada",
+  "QuickParaclinicsEvaluationsFieldUsed": "Existe en la base de datos el valor: '%value%' para el campo %field%"
+}

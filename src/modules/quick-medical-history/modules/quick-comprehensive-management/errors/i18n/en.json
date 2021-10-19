@@ -1,0 +1,5 @@
+{
+  "QuickComprehensiveManagementWithIdDoesNotExist": "QuickComprehensiveManagement with id: '%id%' does not exists",
+  "QuickComprehensiveManagementNameUsed": "QuickComprehensiveManagement with name: '%name%' already exists",
+  "QuickComprehensiveManagementFieldUsed": "The value: %value% exists in the database, for the field: %field%"
+}
