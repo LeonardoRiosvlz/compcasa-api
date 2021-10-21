@@ -158,8 +158,8 @@ export class QuickComprehensiveManagementResolver extends BaseResolver {
           identifier: quickMedicalHistory.id,
           fields: [
             {
-              field: 'responsableName',
-              value: quickMedicalHistory?.responsableName
+              field: 'responsibleName',
+              value: quickMedicalHistory?.responsibleName
             },
             {
               field: 'companionsName',

@@ -18,9 +18,9 @@ export class QuickMedicalHistoryEntity extends PersistentEntity {
   @Prop() companionsName?: string;
   @Prop() companionsPhoneNumber?: string;
   @Prop() companionsType?: string;
-  @Prop() responsableName?: string;
-  @Prop() responsablePhoneNumber?: string;
-  @Prop() responsableOfficeNumber?: string;
+  @Prop() responsibleName?: string;
+  @Prop() responsiblePhoneNumber?: string;
+  @Prop() responsibleOfficeNumber?: string;
   @Prop() reasonForConsultation?: string;
   @Prop() relationship?: string;
   @Prop() currentIllness?: string;

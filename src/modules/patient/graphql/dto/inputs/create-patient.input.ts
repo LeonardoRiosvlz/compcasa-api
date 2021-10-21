@@ -12,6 +12,7 @@ export class CreatePatientInput {
   @Field(() => Gender, {nullable: true} ) gender: Gender;
   @Field(() => DocumentType, )  documentType: DocumentType;
   @Field(() => String, )  documentNumber: string;
+  @Field(() => String, )  placeOfBirth?: string;
   @Field(() => LinkedType, {nullable: true} ) linkedType?: LinkedType;
   @Field(() => MaritalStatus, {nullable: true} ) maritalStatus?: MaritalStatus;
   @Field(() => AffiliateType, {nullable: true} ) affiliateType?: AffiliateType;

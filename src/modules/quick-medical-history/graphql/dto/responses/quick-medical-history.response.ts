@@ -12,9 +12,9 @@ export class QuickMedicalHistoryResponse{
   @Field({nullable: true}) companionsName?: string;
   @Field({nullable: true}) companionsPhoneNumber?: string;
   @Field({nullable: true}) companionsType?: string;
-  @Field({nullable: true}) responsableName?: string;
-  @Field({nullable: true}) responsablePhoneNumber?: string;
-  @Field({nullable: true}) responsableOfficeNumber?: string;
+  @Field({nullable: true}) responsibleName?: string;
+  @Field({nullable: true}) responsiblePhoneNumber?: string;
+  @Field({nullable: true}) responsibleOfficeNumber?: string;
   @Field({nullable: true}) reasonForConsultation?: string;
   @Field({nullable: true}) relationship?: string;
   @Field({nullable: true}) currentIllness?: string;

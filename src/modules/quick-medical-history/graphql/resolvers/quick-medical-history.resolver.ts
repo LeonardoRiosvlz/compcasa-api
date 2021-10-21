@@ -150,15 +150,15 @@ export class QuickMedicalHistoryResolver extends BaseResolver {
         return {
           id: patient.id,
           entityName: PatientEntity.name,
-          identifier: patient.email,
+          identifier: patient.firstName,
           fields: [
             {
-              field: 'firstName',
-              value: patient?.firstName
+              field: 'documentNumber',
+              value: patient.documentNumber
             },
             {
-              field: 'lastSurName',
-              value: patient?.lastSurName
+              field: 'documentType',
+              value: patient.documentType
             }
           ]
         }

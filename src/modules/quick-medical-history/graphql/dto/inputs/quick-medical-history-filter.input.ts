@@ -6,9 +6,15 @@ import { QuickMedicalHistoryEntity } from '../../../entities/quick-medical-histo
 @ObjectType()
 export class QuickMedicalHistoryFilter implements IEntityFilter<QuickMedicalHistoryEntity>{
   @FilterableField(()=>String, { nullable: true }) id?: string;
-  @FilterableField(()=>String, { nullable: true }) name?: string;
-  @FilterableField(()=>String, { nullable: true}) description?: string;
-
+  @FilterableField(()=>String, { nullable: true }) quickMedicalHistoryType?: string;
+  @FilterableField(()=>String, { nullable: true}) companionsName?: string;
+  @FilterableField(()=>String, { nullable: true}) companionsPhoneNumber?: string;
+  @FilterableField(()=>String, { nullable: true}) companionsType?: string;
+  @FilterableField(()=>String, { nullable: true}) responsiblePhoneNumber?: string;
+  @FilterableField(()=>String, { nullable: true}) responsibleOfficeNumber?: string;
+  @FilterableField(()=>Date ,{ nullable: true }) reasonForConsultation?: Date;
+  @FilterableField(()=>Date ,{ nullable: true }) relationship?: Date;
+  @FilterableField(()=>Date ,{ nullable: true }) currentIllness?: Date;
   @FilterableField(()=>Date ,{ nullable: true }) createdAt?: Date;
   @FilterableField(()=>Date ,{ nullable: true }) updatedAt?: Date;
 

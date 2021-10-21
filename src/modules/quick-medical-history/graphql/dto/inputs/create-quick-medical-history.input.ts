@@ -9,9 +9,9 @@ export class CreateQuickMedicalHistoryInput {
   @Field(() => String,{nullable: true} )  companionsName?: string;
   @Field(() => String,{nullable: true} )  companionsPhoneNumber?: string;
   @Field(() => String,{nullable: true} )  companionsType?: string;
-  @Field(() => String,{nullable: true} )  responsableName?: string;
-  @Field(() => String,{nullable: true} )  responsablePhoneNumber?: string;
-  @Field(() => String,{nullable: true} )  responsableOfficeNumber?: string;
+  @Field(() => String,{nullable: true} )  responsibleName?: string;
+  @Field(() => String,{nullable: true} )  responsiblePhoneNumber?: string;
+  @Field(() => String,{nullable: true} )  responsibleOfficeNumber?: string;
   @Field(() => String,{nullable: true} )  reasonForConsultation?: string;
   @Field(() => String,{nullable: true} )  relationship?: string;
   @Field(() => String,{nullable: true} )  currentIllness?: string;
